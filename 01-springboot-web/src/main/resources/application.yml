@@ -1,0 +1,5 @@
+#优先使用application.properties配置文件，只有当application.properties不存在时才会使用该文件
+server:
+  port: 9090
+  server:
+    context-path: /01-springboot-web

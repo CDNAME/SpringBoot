@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01-springboot-web" />
+        <module name="02-springboot-mybatis" />
+        <module name="03-springboot-java" />
+        <module name="04-springboot-war" />
+        <module name="05-springboot-jar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-springboot-web" target="1.8" />
+      <module name="02-springboot-mybatis" target="1.8" />
+      <module name="03-springboot-java" target="1.8" />
+      <module name="04-springboot-war" target="1.8" />
+      <module name="05-springboot-jar" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
